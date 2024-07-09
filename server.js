@@ -20,6 +20,6 @@ app.all("*", (req, res, next) => {
 
 app.use(globalErrorHandler);
 
-app.listen(2000, () => {
-  console.log(`app started on port 2000`);
+app.listen(PORT, () => {
+  console.log(`app started on port ${PORT}`);
 });
